@@ -8,9 +8,9 @@ namespace FlickeringNeonMute
         [HarmonyPatch(typeof(FlickeringNeonSign), "SetOn")]
         private class PFlickeringNeonSign
         {
-            internal static void Postfix(ref AudioSource ____audioSource)
+            internal static void Postfix(ref float ____sparksVolume)
             {
-                ____audioSource.volume = 0;
+                ____sparksVolume = 0.0F;
             }
         }
     }
