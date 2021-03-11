@@ -1,0 +1,12 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
+  "id": "FlickeringNeonMute",
+  "name": "FlickeringNeonMute",
+  "author": "Meivyn",
+  "version": "1.0.0",
+  "description": "Mute that annoying flickering neon.",
+  "gameVersion": "1.13.4",
+  "dependsOn": {
+    "BSIPA": "^4.1.4"
+  }
+}
